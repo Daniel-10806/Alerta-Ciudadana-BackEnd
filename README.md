@@ -49,7 +49,7 @@ The backend is structured using Clean Architecture + DDD, promoting separation o
 ## **Project Structure (Clean Architecture)**
 
 alerta-ciudadana-backend/
- ├── src/main/java/com/alerta_ciudadana/
+ ├── src/main/java/com/alerta_ciudadana/ 
  │     ├── domain/           # Core domain (entities, aggregates, repositories)
  │     ├── application/      # Use cases + DTOs
  │     ├── infrastructure/   # Adapters (JPA, external APIs, configs)
@@ -115,6 +115,6 @@ The backend is built using the following engineering practices:
 
 ## Author
 
-Daniel Jhared Chávarri Zarzosa
-Software Engineer - UPC
+Daniel Jhared Chávarri Zarzosa <br>
+Software Engineer - UPC <br>
 Backend Developer | Clean Architecture Practitioner
