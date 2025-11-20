@@ -48,14 +48,14 @@ The backend is structured using Clean Architecture + DDD, promoting separation o
 
 ## **Project Structure (Clean Architecture)**
 
-alerta-ciudadana-backend/
- ├── src/main/java/com/alerta_ciudadana/ 
- │     ├── domain/           # Core domain (entities, aggregates, repositories)
- │     ├── application/      # Use cases + DTOs
- │     ├── infrastructure/   # Adapters (JPA, external APIs, configs)
- │     └── interfaces/       # REST controllers
- ├── src/main/resources/
- │     └── application.yml   # Environment configuration
+alerta-ciudadana-backend/ <br>
+ ├── src/main/java/com/alerta_ciudadana/ <br>
+ │     ├── domain/           # Core domain (entities, aggregates, repositories) <br>
+ │     ├── application/      # Use cases + DTOs <br>
+ │     ├── infrastructure/   # Adapters (JPA, external APIs, configs) <br>
+ │     └── interfaces/       # REST controllers <br>
+ ├── src/main/resources/ <br>
+ │     └── application.yml   # Environment configuration <br>
  └── pom.xml
 
 ## **Environment Variables**
